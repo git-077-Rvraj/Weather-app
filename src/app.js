@@ -5,6 +5,7 @@ const geocode = require('./Utils/geocode')
 const forecast = require('./Utils/forecast')
 
 const app = express()
+const port = process.env.PORT || 3000
 
 const publicDirectoryPath = path.join(__dirname, '../Public')
 app.set('view engine', 'hbs')
@@ -68,6 +69,6 @@ app.get('*', (req,res)=>
     )
 
 
-app.listen(3000, () => {
-    console.log('server started')
+app.listen(port, () => {
+    console.log('server started at ' + port)
 })
