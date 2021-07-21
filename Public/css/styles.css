@@ -6,8 +6,8 @@ body{
     /* background-color: #D8D3CD; */
   
    
-    background-color: #B6CDBD;
-    
+    /* background-color: #B6CDBD; */
+    background:  linear-gradient(to right, #fecb4b, #e69814);
 }
 h1{
     font-size: 60px;
