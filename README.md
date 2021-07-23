@@ -9,7 +9,7 @@ To run this project locally, run the following command  `yarn start` or `npm sta
 
 ### Heroku Deployment
 
-Weather app is deployed on **Heroku** [Spacex-Launch-Programs](https://spacex-07.herokuapp.com/ )
+Weather app is deployed on **Heroku** https://rv0777-weather-app.herokuapp.com/
 
 
 ## UI And Filter Implementation
